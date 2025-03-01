@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="dynamic_tables",
-    version="0.1.0",
+    version="0.2.0",
     packages=find_packages(),
     install_requires=[
         "psycopg2",
@@ -12,10 +12,7 @@ setup(
     description="A dynamic table creation and management library for PostgreSQL",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/scottrodeo/dynamic_tables",
-        project_urls={  
-        "Author Website": "https://patreon.com/scottrodeo",
-    },
+    url="https://github.com/scottrodeo/dynamic-tables-python",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
