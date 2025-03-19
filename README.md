@@ -1,5 +1,7 @@
 # Dynamic Tables (Python)
 
+![Dynamic Tables Preview](preview.png)
+
 A Python library for dynamically creating and managing PostgreSQL tables based on input data.
 
 ---
